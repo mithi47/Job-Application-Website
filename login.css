@@ -1,0 +1,90 @@
+/* reg.css */
+
+body {
+    width: 1350px;
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-image: url("50-Beautiful-and-Minimalist-Presentation-Backgrounds-040.jpg");
+}
+
+    
+
+.container {
+    width: 20%;
+    margin: 40% auto;
+}
+
+header {
+    width: 1350px;
+    background-color:  cadetblue;
+    color: #f5f1f1;
+    padding: 10px;
+    display: flex;
+    justify-content: space-between;
+}
+
+.name {
+    font-size: 24px;
+}
+
+.links a {
+    color: #fff;
+    text-decoration: none;
+}
+
+fieldset {
+    align-items: center;
+    width: 1280px;
+    margin: 5px 10;
+    padding: 40px;
+    border: 1px solid beige;
+    border-radius: 10px;
+    background-color:cadetblue;
+}
+
+legend {
+    font-size: 20px;
+    font-weight: bold;
+    color:black;
+}
+
+form {
+    width: 20%;
+    margin: 0 auto;
+    color: #faf9f9;
+}
+
+input[type="text"],
+input[type="password"] {
+    width: calc(100% - 80px);
+    padding: 10px;
+    margin-bottom: 20px;
+    border: 1px solid beige;
+    border-radius: 1px;
+    background-color: rgb(235, 222, 216);
+}
+
+button {
+    
+    padding: 10px 20px;
+    background-color:#cfdade;
+    color: #cfdade;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+}
+
+button:hover {
+    background-color:beige;
+}
+
+button[type="reset"] {
+    background-color: #ccc;
+    color: blue;
+}
+
+button[type="reset"]:hover {
+    background-color:beige;
+}

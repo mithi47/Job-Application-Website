@@ -1,0 +1,119 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Python Application</title>
+    <script src="./index.js"></script>
+    <link rel="stylesheet" href="py.css">
+
+</head>
+<body style="align-items: center;">
+    <header>
+        <div class="name">Job Application Website</div>
+        <div class="links">
+            <button> <a href="app_dash.html">Home</a></button>
+            <button> <a href="index.html">Logout</a></button>   
+        </div>
+    </header>
+    <div class="container">
+    <fieldset style="padding: 50px;" >
+        <legend>
+           Python Job Application Form
+        </legend>
+        <form id="pform" >
+            <table >
+                <tr>
+                    <td> <h3>Name:</h3></td>
+                    <td><input type="text" id="name" placeholder="Enter your name"  required></td>
+                </tr>
+                <tr>
+                    <td><h3>DOB:</h3></td>
+                    <td> <input type="date" id="dob" placeholder="Enter your DOB" required></td>
+                </tr>
+                <tr>
+                    <td><h3>Phone NO:</h3></td>
+                    <td> <input type="text" id="phno" placeholder="Enter your PHONE NO" required></td>
+                </tr>
+                <tr>
+                    <td><h3>Email ID:</h3></td>
+                    <td> <input type="email" id="email" placeholder="Enter your email id" required></td>
+                </tr>
+                <tr>
+                    <td><h3>Address:</h3></td>
+                    <td><textarea type="text" id="address" placeholder="Enter your address" required></textarea></td>
+                </tr>
+                <tr>
+                    <td><h3>Education Details:</h3></td>
+                    <td><textarea type="text" id="edu" placeholder="Enter your Education Details" required></textarea></td>
+                </tr>
+                <tr>
+                    <td><h3>Skills:</h3></td>
+                    <td> <div class="dropdown">
+                        <span>Select Skills </span>
+                        <div class="dropdown-content">
+                            <input type="checkbox" name="skill" value="Python"> Python<br>
+                            <input type="checkbox" name="skill" value="SQL"> SQL<br>
+                            <input type="checkbox" name="skill" value="Java Script"> Java Script<br>
+                            <input type="checkbox" name="skill" value="HTML"> HTML<br>
+                            <input type="checkbox" name="skill" value="CSS"> CSS<br>
+                            <input type="checkbox" name="skill" value="Java Script"> Java Script<br>
+                            <input type="checkbox" name="skill" value="Django Framework"> Django Framework<br>
+                            <input type="checkbox" name="skill" value="Manual Testing"> Manual Testing<br>
+                            <input type="checkbox" name="skill" value="Git"> Git<br>
+                            <input type="checkbox" name="skill" value="Git Hub"> Git Hub<br>
+                            <input type="checkbox" name="skill" value="Machine learning"> Machine learning<br>
+                            <input type="checkbox" name="skill" value="Power BI">Power BI<br>
+                            <input type="checkbox" name="skill" value="UNIX"> UNIX<br>
+                            <input type="checkbox" name="skill" value="Cloud Concepts"> Cloud Concepts<br>
+                        </div>
+                      </div></td>
+                </tr>
+                <tr>
+                    <td><h3>Work experience:</h3></td>
+                    <td></td>
+                </tr>
+                <tr>
+                    <td><h4>Year of experience:</h4></td>
+                    <td><input type="number" id="work_year"  required></td>
+                </tr>
+                <tr>
+                    <td><h4>Work experience:</h4></td>
+                    <td><textarea type="text" id="work_exp" placeholder="Enter your work experience" ></textarea></td>
+                </tr>
+                <tr>
+                    <td><h3>Languages known:</h3></td>
+                    <td><div class="dropdown">
+                        <span>Select Language </span>
+                        <div class="dropdown-content">
+                            <input type="checkbox" name="lk" value="English"> English<br>
+                            <input type="checkbox" name="lk" value="Kannada"> Kannada<br>
+                            <input type="checkbox" name="lk" value="Telugu"> Telugu<br>
+                            <input type="checkbox" name="lk" value="Hindi"> Hindi<br>
+                            <input type="checkbox" name="lk" value="Marathi"> Marathi<br>
+                            <input type="checkbox" name="lk" value="Bengali"> Bengali<br>
+                            <input type="checkbox" name="lk" value="Tamil"> Tamil<br>
+
+
+                        </div>
+                      </div></td>
+                </tr>
+                <tr>
+                    <td><h3>Expected CTC:</h3></td>
+                    <td><input type="number" id="ctc" placeholder="In Lakh"></td>
+                </tr>
+        </table>
+        <button type="reset" onclick="validate('py',event)">Submit</button>
+        </form>
+    </fieldset>
+</div>
+<script>
+       
+    window.onload = function() {
+        
+        fetch('py'); 
+        
+    };
+</script>
+</body>
+</html>

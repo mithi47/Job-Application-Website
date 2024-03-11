@@ -1,0 +1,44 @@
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Hire Page</title>
+    <script src="./index.js"></script>
+    <link rel="stylesheet" href="hire.css">
+</head>
+<body>
+    <header>
+        <div class="name">Job Application Website</div>
+        <div class="links">
+            <button class="btn"><a href="choose.html">Back</a></button>
+            <button class="btn"><a href="index.html">Logout</a></button>
+        </div>
+    </header>
+    <form id="hform">
+        <button type="reset" onclick="let a='py';insert_candy(a)"  >Python</button>
+        </form>
+        <form id="hform">
+        <button type="reset" onclick="let b='js';insert_candy(b)">Java Script</button>
+        </form>
+        <form id="hform" > 
+        <button type="reset" onclick="let c='qa';insert_candy(c)">Quality Assurance</button>
+        </form>    
+    
+        <fieldset>
+            <legend>
+                <h2>Job Application List</h2>
+            </legend>
+            <table border="2" id="table">
+                <tr>
+                    <th class="col">Name</th>
+                    <th class="col">User Name</th>
+                    <th class="col">action</th>
+                    </tr>
+            </table>
+        </fieldset>
+
+        <div id="show"></div>
+
+        
+</body>
+</html>

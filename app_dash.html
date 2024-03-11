@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <script src="./index.js"></script>
+    <link rel="stylesheet" href="app_dash.css">
+    <title>Job Applications</title>
+</head>
+<body>
+    <header>
+        
+        <div class="name">Job Application Website</div>
+        <div class="links">
+            <button class="btn"><a href="index.html">Logout</a></button>
+        
+        </div>
+    </header>
+    <form id="btn-py" action="./py.html">
+    <button>Python</button>
+    </form>
+    <form id="btn-js" action="./js.html">
+    <button>Java Script</button>
+    </form>
+    <form id="btn-qa" action="./qa.html"> 
+    <button>Quality Assurance</button>
+    </form>    
+
+    <fieldset>
+        <legend>
+            <h2>Job Application List</h2>
+        </legend>
+        <table border="2" id="table">
+            <tr>
+                <th class="col">Domain</th>
+                <th class="col">action</th>
+                </tr>
+        </table>
+    </fieldset>
+    
+    <script>
+       
+        window.onload = function() {
+            insert();
+            btn();
+        };
+    </script>
+    
+</body>
+</html>

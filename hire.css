@@ -1,0 +1,101 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-image: url("50-Beautiful-and-Minimalist-Presentation-Backgrounds-040.jpg");
+    width: 1320px;
+    height: 150px;
+  
+    .photo-container{
+    background-color: #1ae1c0;
+   
+}
+}
+
+header {
+    background-color:  cadetblue;
+    width: 1350;
+    color: #f5f1f1;
+    padding: 10px;
+    display: flex;
+    justify-content: space-between;
+}
+
+.name {
+    font-size: 24px;
+    
+}
+
+.links a {
+    color: #fff;
+    text-decoration: none;
+    margin-right: 10px;
+}
+.btn {
+    
+    padding: 10px 20px;
+    background-color:#cfdade;
+    color: #cfdade;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+}
+
+.btn:hover {
+    background-color:beige;
+}
+
+form {
+    margin-top: 20px;
+}
+
+button {
+    padding: 10px 20px;
+    margin-right: 10px;
+    background-color: cadetblue;
+    color:#fafcfd;
+    border: none;
+    cursor: pointer;
+    border: 1px solid beige;
+}
+
+button:hover {
+    background-color:  #442ee8;
+}
+
+fieldset {
+    margin-top: 20px;
+    width: 1340;
+    border: 1px solid black;
+    padding: 10px;
+}
+
+legend {
+    font-size: 20px;
+    font-weight: bold;
+    color: #0b0b0b;
+}
+
+table {
+    width: 100%;
+    border-collapse: collapse;
+}
+
+th, td {
+    padding: 10px;
+    text-align: left;
+}
+
+th {
+    background-color: cadetblue;
+    color: #f5f1f1;
+}
+
+td {
+    border-bottom: 1px solid #ccc;
+}
+
+#show {
+    margin-top: 20px;
+}
